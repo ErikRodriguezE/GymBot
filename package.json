@@ -1,0 +1,20 @@
+{
+  "name": "telegram-playwright-bot",
+  "version": "1.0.0",
+  "main": "dist/bot/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/bot/index.js",
+    "dev": "ts-node src/bot/index.ts"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "playwright": "^1.44.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "@types/node": "^20.14.0",
+    "ts-node": "^10.9.2"
+  }
+}
